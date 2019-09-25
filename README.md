@@ -4,14 +4,14 @@
 ![git](/git.png)
 
 ### You accidentally added files to staging
-`git reset <filename>`
+`git reset <filename>`  
 This will not undo your changes, it just removes them from staging area
 
 ### You want to get rid of your changes
 `git reset --hard`  
 This is for when you do not want to keep your changes, and want to go back to the last commit you were at.
 
-### Reseting to older commit 
+### Reseting to older commit
 `git reset --hard HEAD~1`  
 Before pushed, its possible to reset to older versions of the branch. Making new commits can cause conflicts though.
 
@@ -25,6 +25,6 @@ This allows you to reset specific files back to the `HEAD`
 `git checkout HEAD -- . (or directory)`  
 This will allow you to checkout what an entire directory looked like at the given snapshot or hash. This is useful for going back to a specific commit and making it a new one. This is a good approach if the files have already been pushed.
 
-### Revert a commit 
+### Revert a commit
 `git revert <commit id>` 
 This will allow you to apply the opposite commit to undo something. If already pushed, this is a very good approach.
