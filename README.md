@@ -8,11 +8,12 @@
 This will not undo your changes, it just removes them from staging area
 
 ### You want to get rid of your changes
-`git reset --hard`
-
-`git reset --hard HEAD`
-
+`git reset --hard`  
 This is for when you do not want to keep your changes, and want to go back to the last commit you were at.
+
+### Reseting to older commit 
+`git reset --hard HEAD~1`  
+Before pushed, its possible to reset to older versions of the branch. Making new commits can cause conflicts though.
 
 ### Reset specific files
 `git checkout -- <filename>`  
