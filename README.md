@@ -1,5 +1,12 @@
 # Fixing things in git
 
+1
+2
+3
+4
+5
+6
+
 ## Step 1 Identify how far you got!
 ![git](/git.png)
 
